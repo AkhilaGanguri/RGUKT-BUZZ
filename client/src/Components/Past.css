@@ -1,0 +1,44 @@
+.past-container {
+    padding: 20px;
+    background-color:antiquewhite;
+  }
+  
+  
+  
+  .games-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .box_item {
+    border: 2px solid rgba(98, 224, 241, 0.87);
+    width: 400px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .box_item p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #0056b3; /* Blue color for labels */
+  }
+
+  h2{
+    color:blueviolet;
+    padding:10px;
+  }

@@ -1,0 +1,117 @@
+.whole{
+  background-color: rgb(243, 246, 248);
+}
+h2{
+    text-align: center;
+}
+.boxx{
+    
+    display: flex;
+    gap:250px;
+    justify-content: center;
+}
+.box-cont p{
+font-weight: bold;
+}
+.box-cont h3{
+  text-decoration: underline;
+  }
+.box-content {
+    margin-bottom: 20px; /* Add some space between team information and winner */
+  }
+  
+  .box-content.winner {
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 50px;
+    width: 800px;
+    margin-left: 260px;
+  }
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); 
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(0, 0, 255, 0.9);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    }
+  }
+  
+
+
+
+
+
+  @keyframes pulseGlow {
+    0% {
+      box-shadow: 0 0 5px rgb(176, 114, 235);
+    }
+    50% {
+      box-shadow: 0 0 20px rgb(3, 195, 243);
+    }
+    100% {
+      box-shadow: 0 0 5px rgb(136, 102, 231);
+    }
+  }
+  
+  .kabaddi-box-glow {
+    animation: pulseGlow 1s infinite;
+  }
+  
+  @keyframes pulseGlowVolleyball {
+    50% {
+      box-shadow: 0 0 5px rgb(176, 114, 235);
+    }
+    50% {
+      box-shadow: 0 0 20px rgb(3, 195, 243);
+    }
+    100% {
+      box-shadow: 0 0 5px rgb(136, 102, 231);
+    }
+  }
+  
+  .volleyball-box-glow {
+    animation: pulseGlowVolleyball 1s infinite;
+  }
+  
+
+
+  @keyframes colorChange {
+    0% {
+      color: red;
+    }
+    20%{
+      color:rgb(233, 92, 49)
+    }
+    30% {
+      color: blue;
+    }
+    40%{
+      color:rgb(45, 184, 240)
+    }
+    50% {
+      color: green;
+    }
+    60%{
+      color:rgb(167, 236, 5)
+    }
+    70% {
+      color: purple;
+    }
+    80%{
+      color:rgb(245, 101, 214)
+    }
+    90%{
+      color:rgb(190, 75, 129)
+    }
+    100% {
+      color: orange;
+    }
+  }
+  
+  .color-changing-text {
+    animation: colorChange 5s infinite;
+  }
+  

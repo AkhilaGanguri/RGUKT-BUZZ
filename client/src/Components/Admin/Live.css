@@ -1,0 +1,54 @@
+.navbar {
+  overflow: hidden;
+  background-color:white;
+  font-family: Arial;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: orange;
+}
+button {
+  background-color: chocolate;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 30px;
+  font-family: monospace;
+}
+.btn-success {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  float: center;
+  cursor: pointer;
+  width: 25%;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.save-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 10px;
+  border: darkgoldenrod;
+  float: right;
+  cursor: pointer;
+  width: 25%;
+  font-size: 20px;
+  border-radius: 10px;
+}

@@ -1,0 +1,106 @@
+.loginh1{
+    text-align: center;
+    color: yellowgreen;
+    /* margin-top: 50px; */
+}
+.login {
+    background-image: url("/home/rguktongole/Desktop/React mini/mini/src/Components/Assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 99vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form{
+    
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    margin-left: 410px;
+    margin-top: 50px;
+    border: 3px solid rgb(69, 165, 221);
+    border-radius: 10px;
+    
+}
+h5{
+    margin-top: 15px;
+    margin-left: -400px;
+    text-decoration: underline;
+}
+.login_inputs{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border:2px solid rgb(59, 168, 201);
+}
+.login_btn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(59, 168, 201);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+}
+.login_btn:hover{
+    color: rgb(65, 203, 221);
+    background-color: white;
+    border: 2px solid rgb(64, 165, 206);
+    font-size: larger;
+}
+#signup_link{
+    margin-left: 630px;
+    font-weight: bold;
+}
+#noacct{
+    margin-left: 560px;
+    color: white;
+}
+
+
+.password-input {
+    position: relative;
+}
+
+.password-input .login_inputs {
+    padding-right: 36px; /* Adjust as necessary to accommodate the icon */
+}
+
+.password-input .eye-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px; /* Adjust the distance from the right edge */
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+.loggedin-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.loggedin-info .fa-envelope {
+    margin-right: 10px;
+}
+
+.user-email {
+    font-weight: bold;
+}
+

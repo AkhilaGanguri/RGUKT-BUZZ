@@ -1,0 +1,105 @@
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .contact-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraph styles */
+  .contact-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Form label styles */
+  .contact-container label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input field styles */
+  .contact-container input[type="text"],
+  .contact-container input[type="email"],
+  .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+
+  }
+  
+  /* Textarea styles */
+  .contact-container textarea {
+    resize: vertical;
+  }
+  
+  /* Submit button styles */
+  .contact-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .contact-container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Horizontal line styles */
+  .contact-container h2 {
+    font-size: 40px;
+    margin: 20px 0;
+  }
+  
+  /* About section styles */
+  .about-section {
+    margin-top: 30px;
+    background-color: grey;
+    
+  }
+  
+  /* About section heading styles */
+  .contact-container .about-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+    
+  /* About section list item styles */
+  .about-section ol li {
+    font-size: 16px;
+    color:white;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  .about-section ol li:hover {
+    list-style-type: none;
+    color: red;
+    padding: 0;
+  }
+  
+/*  
+  .contact-container .about-section ol li a {
+    color: #007bff;
+    text-decoration: none; 
+  }
+  
+  .contact-container .about-section ol li a:hover {
+    text-decoration: underline;
+  }  */
